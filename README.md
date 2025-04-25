@@ -92,9 +92,9 @@ print("The sum is:", sum)
 ---
 
 ### 3.3 What are Variables?
--> How Variables are Created
--> What Information does a Variable hold
--> How Names are Given to Data (Variable Name) 
+* How Variables are Created
+* What Information does a Variable hold
+* How Names are Given to Data (Variable Name) 
 ### 🧠 What are Variables in Python?
 
 A **variable** is like a **container** or a **name** you give to a value so you can use it later in your program.
