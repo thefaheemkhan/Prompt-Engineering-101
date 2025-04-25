@@ -92,40 +92,70 @@ print("The sum is:", sum)
 ---
 
 ### 3.3 What are Variables?
-* How Variables are Created
-* What Information does a Variable hold
-* How Names are Given to Data (Variable Name) 
-### 🧠 What are Variables in Python?
 
-A **variable** is like a **container** or a **name** you give to a value so you can use it later in your program.
+### 🔧 **1. How Variables are Created in Python**
+Variables are created **automatically** when you **assign a value** to a name using the `=` sign.
 
----
-
-### 🔍 Simple Definition:
-> A **variable** stores data in memory that can be used and changed during the program.
-
----
-
-### 📦 Example:
+📌 **Syntax:**
 ```python
-name = "Alice"
-age = 20
-is_student = True
+variable_name = value
 ```
 
-- `name` is a variable storing a string (`"Alice"`)
-- `age` stores an integer (`20`)
-- `is_student` stores a boolean (`True`)
+📦 **Examples:**
+```python
+x = 10
+name = "Alice"
+is_cool = True
+```
+
+No need to declare the type — Python figures it out!
 
 ---
 
-### 📝 Rules for Naming Variables:
-- Must **start with a letter** or underscore (`_`)
-- Can only contain **letters, digits, and underscores**
-- **Case-sensitive** (`Name` ≠ `name`)
-- Should **not use Python keywords** (like `if`, `while`, `class`)
+### 📦 **2. What Information Does a Variable Hold?**
+
+A variable holds **two things**:
+1. The **data (value)** itself
+2. The **data type** of that value
+
+🧠 For example:
+```python
+age = 18
+```
+- Variable name: `age`
+- Value: `18`
+- Data type: `int`
+
+It’s like labeling a box with a name and putting something (a value) inside it.
 
 ---
+
+### 🏷️ **3. How Names Are Given to Data (Variable Names)**
+
+#### ✅ Rules for Naming Variables:
+- Must **start with a letter** or `_` (underscore)
+- Can contain **letters, numbers, and underscores**
+- **Cannot** use spaces or special characters like `@`, `#`, etc.
+- **Case-sensitive**: `Name` and `name` are different
+- Should **not use reserved keywords** (`if`, `while`, `class`, etc.)
+
+📌 **Good Names:**
+```python
+user_name = "Ali"
+total_score = 99
+is_admin = False
+```
+
+📌 **Bad Names (❌):**
+```python
+2name = "Error"      # Starts with number
+user-name = "Error"  # Contains a hyphen
+class = "Error"      # 'class' is a keyword
+```
+
+---
+
+
 
 Python Dynamically Typed
 Rules for Declaring Variable Names
