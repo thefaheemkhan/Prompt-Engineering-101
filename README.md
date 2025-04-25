@@ -27,9 +27,10 @@ This is the repo where you learn the whole of Python in a single go
 23. OS Modules
 24. Tkinter
 25. Numpy Arrays
+---
+---
 
-
-### What is Datatypes 
+### 3. What is Datatypes 
 Python has several **built-in data types** that are used to store different kinds of data. Here’s a simple breakdown of the main ones:
 
 ---
@@ -64,4 +65,28 @@ Python has several **built-in data types** that are used to store different kind
 
 ---
 
-Would you like a **cheat sheet with examples** for all these?
+### What is a Program
+A **program** is a set of **instructions written in a programming language** that a computer can follow to perform a specific task or solve a problem.
+
+### 🔍 In simple words:
+> A **program** tells the computer **what to do**, **how to do it**, and **in what order**.
+
+---
+
+### 📌 Example in Python:
+```python
+# This program adds two numbers
+a = 5
+b = 3
+sum = a + b
+print("The sum is:", sum)
+```
+
+🧠 Here, the program:
+1. Stores two numbers (`a` and `b`)
+2. Adds them
+3. Prints the result
+
+---
+
+Want a beginner-friendly roadmap to learn programming?
