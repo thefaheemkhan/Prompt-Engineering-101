@@ -27,3 +27,41 @@ This is the repo where you learn the whole of Python in a single go
 23. OS Modules
 24. Tkinter
 25. Numpy Arrays
+
+
+### What is Datatypes 
+Python has several **built-in data types** that are used to store different kinds of data. Here’s a simple breakdown of the main ones:
+
+---
+
+### 🔢 **Basic Data Types**
+| Type       | Description                         | Example           |
+|------------|-------------------------------------|-------------------|
+| `int`      | Integer numbers                     | `x = 5`           |
+| `float`    | Decimal (floating-point) numbers    | `pi = 3.14`       |
+| `complex`  | Complex numbers                     | `z = 2 + 3j`      |
+| `bool`     | Boolean values                      | `is_valid = True` |
+| `str`      | Strings (text)                      | `name = "Alice"`  |
+
+---
+
+### 📦 **Collection Data Types**
+| Type       | Description                                      | Example                          |
+|------------|--------------------------------------------------|----------------------------------|
+| `list`     | Ordered, changeable, allows duplicates           | `nums = [1, 2, 3]`               |
+| `tuple`    | Ordered, **unchangeable**, allows duplicates     | `coords = (10, 20)`             |
+| `set`      | **Unordered**, no duplicates                     | `unique_vals = {1, 2, 3}`        |
+| `dict`     | Key-value pairs                                  | `person = {"name": "Bob"}`       |
+
+---
+
+### ⏳ **Special Data Types**
+| Type     | Description              | Example          |
+|----------|--------------------------|------------------|
+| `None`   | Represents "nothing"     | `x = None`       |
+| `bytes`  | Immutable byte sequences | `b = b"hello"`   |
+| `bytearray` | Mutable byte sequence | `ba = bytearray(5)` |
+
+---
+
+Would you like a **cheat sheet with examples** for all these?
