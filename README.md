@@ -1,7 +1,5 @@
-# Python-Mastery
 
----
-## Topics:
+## Python Mastery Topics:
 1. Introduction to Python
 2. Python Installation and Setup
 3. Python Datatypes
@@ -30,6 +28,6 @@
 ---
 
 
-# 1. Introduction to Python
-# 2. Python Installation and Setup
-# 3. Python Datatypes
+## 1. _Introduction to Python_
+## 2. _Python Installation and Setup_
+## 3. _Python Datatypes_
